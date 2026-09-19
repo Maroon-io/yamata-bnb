@@ -71,7 +71,7 @@ No Presage implementation source is present here.
 
 ## Verification
 
-A reviewer looking only at this repository (plus public BscScan) can confirm Yamata is deployed on BNB:
+Confirm Yamata is deployed on BNB:
 
 ```bash
 npm install
