@@ -1,0 +1,28 @@
+{
+  "_comment": "Official Yamata BNB Smart Chain mainnet (56) production addresses. Public facts only. See src/addresses.ts for typed version and categorization.",
+  "chainId": 56,
+  "network": "bnb-mainnet",
+  "explorer": "https://bscscan.com",
+  "yamataContracts": {
+    "presage": "0xc2eaa0778dc629bd69b905727482792742c06ea7",
+    "priceHub": "0x1b24678acf29e25889dab8492b78d472b06c46fa",
+    "guardianPool": "0x7b65d2fc63f6d3893b4d68e8fdb4cf5208d1f637",
+    "vault": "0x3130b99Edf12FF619a870D2640687d00AF62103E",
+    "vaultFactory": "0xb12f2ad9eb04b721355c0ea4999189e7bc95e9e4",
+    "wrapperFactory": "0xaaad78e30516f6584a048a19bb3771f9b7d4281f",
+    "safeBatchHelper": "0x10d893b26d91ef38b17df0ed595cf38d30d5bc1b",
+    "pullPriceAdapter": "0xf0ee1442c3197be86b6a3c6456ea225a5575b2e3",
+    "fixedPriceAdapter": "0xbc8660d8c7a99ea51eb90c224af91a831d7a264a",
+    "verifier": "0xd05ebfdd877e37fa4a66763175b16ad4e3fc4fcf"
+  },
+  "externalContracts": {
+    "morpho": "0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a",
+    "irm": "0x7112D95cB5f6b13bF5F5B94a373bB3b2B381F979",
+    "usdt": "0x55d398326f99059fF775485246999027B3197955",
+    "predictFunCtf": "0x22DA1810B194ca018378464a58f6Ac2B10C9d244",
+    "safeSingleton": "0x5be481E3858454DdFD8E45702B52C90559cc75fd",
+    "safeProxyFactory": "0xef4C89216d3b663ff387bd606891a7546D954FAf",
+    "entryPoint4337": "0xb55FFeE150553987e198B4d3aEEDE9BdD471284d"
+  },
+  "lastVerified": "2026-09-19"
+}

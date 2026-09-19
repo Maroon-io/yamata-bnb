@@ -1,0 +1,21 @@
+Copyright (c) 2026 Maroon-io / Yamata. All rights reserved.
+
+This repository ("yamata-bnb") contains only:
+
+- Publicly verifiable on-chain contract addresses for Yamata deployments on BNB Smart Chain.
+- Network configuration constants for BNB Smart Chain.
+- A minimal verification script and TypeScript helpers that read public blockchain state.
+
+No smart contract implementation source code, no backend code, no risk/pricing/liquidation logic, no frontend application code, and no proprietary business logic from Yamata are included.
+
+USE OF THIS PACKAGE
+The address constants and verification tooling may be used to confirm deployment and to build read-only integrations against the public contracts on BNB Smart Chain.
+
+NO OTHER RIGHTS GRANTED
+Nothing in this repository grants any license or right to use, copy, modify, or distribute any proprietary Yamata technology, smart contracts, software, trade secrets, or other intellectual property not explicitly published here.
+
+On-chain contracts remain subject to their own terms and the licenses (if any) under which they were deployed.
+
+For licensing inquiries regarding Yamata technology, contact the project maintainers.
+
+Third-party contracts and standards (Safe, Morpho, ERC standards, etc.) are the property of their respective owners.

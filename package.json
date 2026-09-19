@@ -1,0 +1,45 @@
+{
+  "name": "@maroon-io/yamata-bnb",
+  "version": "0.1.0",
+  "description": "Official BNB Smart Chain integration and deployment reference for Yamata.",
+  "license": "SEE LICENSE IN NOTICE",
+  "author": "Maroon-io (Yamata)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maroon-io/yamata-bnb.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "config",
+    "README.md",
+    "NOTICE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "verify:bnb": "tsx scripts/verify-bnb-deployment.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "peerDependencies": {
+    "viem": "^2"
+  },
+  "peerDependenciesMeta": {
+    "viem": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "yamata",
+    "bnb",
+    "bsc",
+    "prediction-markets",
+    "presage",
+    "blockchain"
+  ]
+}
